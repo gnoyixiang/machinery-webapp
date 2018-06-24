@@ -14,12 +14,14 @@
     background-color: firebrick;
     color: white;
     padding: 5px 10px;
+    border-radius: 10px;
 }
 
 .nav{
     display: inline-block;
     text-align: center;    
-    font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif
+    font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+    padding-top: .25em;
 }
 
 .nav-block{
@@ -35,6 +37,7 @@
 
 .account{
     text-align: right;
+    padding-top: .25em;    
 }
 
 a{
