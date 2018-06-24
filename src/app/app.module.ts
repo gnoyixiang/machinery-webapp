@@ -8,12 +8,14 @@ import { ContentComponent } from './component/content/content.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { CarouselComponent } from './component/carousel/carousel.component';
 import { NotFoundComponent } from './component/notfound/notfound.component';
-
+import { ShopComponent } from './component/shop/shop.component';
 
 import { RouterModule, Routes } from '@angular/router';
+import { ProductsComponent } from './products/products.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: CarouselComponent },
+  //{ path: 'shop', component: ShopComponent },  
   { path: '',
     redirectTo: '/home',
     pathMatch: 'full'
@@ -28,7 +30,9 @@ const appRoutes: Routes = [
     ContentComponent,
     FooterComponent,
     CarouselComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    ShopComponent,
+    ProductsComponent
   ],
   imports: [
     RouterModule.forRoot(

@@ -11,6 +11,10 @@ header{
 
 .content{
     min-height: 80vh;
+    max-height: 80vh;
+    max-width: 100%;
+    min-width: 100%;
+    overflow: auto;
 }
 
 .text-btm{
