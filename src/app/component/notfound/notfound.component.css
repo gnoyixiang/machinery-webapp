@@ -1,0 +1,8 @@
+.image{
+    background-image: url("https://cdn.dribbble.com/users/30173/screenshots/1674272/web-pazdeal-404-v1-dribbble.png");
+    background-position: center center;
+    display: block;
+    min-height: 80vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,21 @@
+.image{
+    background-image: url("https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg");
+    background-position: center center;
+    display: block;
+    min-height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.app-carousel{
+    display: block;
+    min-height: 80vh;
+}
+
+img{
+    min-height: 80vh;
+    max-height: 80vh;
+    min-width: 100%;
+    max-width: 100%;    
+    object-fit: cover;
+}
